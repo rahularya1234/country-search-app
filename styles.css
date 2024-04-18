@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #90898950;
+}
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Styles for the paragraph elements */
+.p {
+  font-weight: bold;
+}
+
+.search {
+  margin-top: 20px;
+}
+
+/* Styles for the radio buttons and labels */
+label {
+  margin-right: 10px;
+}
+
+/* Styles for the select dropdown */
+select {
+  width: 200px;
+  margin-top: 10px;
+}
+
+/* Styles for the table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  color: #f1edf1;
+  background-color: rgb(12, 79, 99);
+}
+
+th,
+td {
+  border: 1px solid #f1edf1;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #131414;
+}
+
+/* Styles for the flag images */
+img {
+  display: block;
+  margin: auto;
+}
